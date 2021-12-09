@@ -1,17 +1,22 @@
-import React from 'react';
-import Image from './../assets/logo.png'
+import React from "react";
+import { Link } from "react-router-dom";
+import Logo from "../assets/logo.png";
 
 function NavBar() {
-    return (
-        <div>
-            <img src={Image}/>
-            <a href="#">Home</a>
-            <a href="#">About Us</a>
-            <a href="#">Contact Us</a>
-            <a href="#">Helper</a>
-            <a href="#">Donor</a>
-        </div>
-    );
+  return (
+    <div className="navigation">
+      <div className="image">
+        <img src={Logo} alt="logo" />
+      </div>
+      <div className="links">
+        <Link to="/">Home</Link>
+        <Link to="/about">About</Link>
+        <Link to="/contact">Contact</Link>
+        <Link to="/helper">Helper</Link>
+        <Link to="/donor">Donor</Link>
+      </div>
+    </div>
+  );
 }
 
 export default NavBar;
