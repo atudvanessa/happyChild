@@ -32,9 +32,11 @@ function Home() {
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
             aliquip ex ea commodo consequat.
           </p>
+          <div className="logins">
           <span className="login">
             <Link to="/helper">Login As Helper</Link>
           </span>
+          </div>
         </div>
       </div>
       <div className="donor">
@@ -46,9 +48,10 @@ function Home() {
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
             aliquip ex ea commodo consequat.
           </p>
+          <div className="logins">
           <span className="login">
             <Link to="/donor">Login As Donor</Link>
-          </span>
+          </span></div>
         </div>
       </div>
     </div>

@@ -1,10 +1,11 @@
-body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+* {
+  box-sizing: border-box;
 }
 .navigation {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
   align-content: center;
   background-color: white;
   font-weight: bold;
@@ -13,9 +14,6 @@ body {
   position: sticky;
   position: -webkit-sticky;
   top: 0;
-}
-.links {
-  padding-top: 2em;
 }
 .navigation a{
   text-decoration: none;
@@ -30,9 +28,12 @@ body {
   background-color: yellow;
   color: black;
 }
+.menu {
+  padding: 2em;
+}
 .image img{
-  width: 100px;
-  height: 100px;
+  width:60px;
+  height: 60px;
 }
 .home {
   display: flex;
@@ -53,21 +54,26 @@ body {
 }
 .text_side {
   width: 50vw;
+  padding: 1em;
   color: white;
   font-weight: bold;
-  font-size: 32px;
-  text-align: justify;
+  font-size: 24px;
+  text-align: left;
 }
 .main_text {
-  font-size: 64px;
+  font-size: 50px;
   font-weight: bold;
+  text-align: left;
   color: #fddb53;
 }
 .donor {
-  background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)), url("./assets/schoolboy.jpg") no-repeat top center fixed;
+  background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)), url("./assets/schoolboy.jpg") no-repeat bottom center fixed;
   background-size: cover;
   min-height: 700px;
-  padding: 1em;
+  padding: 4em 1em;
+}
+.login {
+  margin-top: 3em;
 }
 .login a{
   font-size: 20px;
@@ -83,4 +89,21 @@ body {
 }
 .login a:hover{
   background-color: #fddb53;
+}
+.logins {
+  padding-top: 3em;
+}
+@media only screen and (max-width:1024px) {
+  .text_side {
+    width: 90vw;
+    padding: 1em;
+    text-align: center;
+  }
+  .main_text {
+    text-align:center;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+
 }
