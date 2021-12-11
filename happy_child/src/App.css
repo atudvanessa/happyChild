@@ -1,38 +1,86 @@
-.App {
-  text-align: center;
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  background-color: white;
+  font-weight: bold;
+  flex-wrap: wrap;
+  width: 100vw;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.links {
+  padding-top: 2em;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navigation a{
+  text-decoration: none;
+  color: #000000;
+  margin: 1em;
+  padding: 1em;
+  transition: background-color, color;
+  transition: all 0.5s ease-in-out;
+  border-radius: 10px;
+}
+.navigation a:hover {
+  background-color: yellow;
+  color: black;
+}
+.image img{
+  width: 100px;
+  height: 100px;
+}
+.home {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  /* padding: 1em; */
+}
+.brief_about{
+  background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)), url("./assets/happyChild.jpeg") no-repeat top center fixed;
+  background-size: cover;
+  min-height: 700px;
+  padding: 1em;
+}
+.helper {
+  background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)), url("./assets/lookup.jpg") no-repeat center center fixed;
+  background-size: cover;
+  min-height: 700px;
+  padding: 1em;
+}
+.text_side {
+  width: 50vw;
   color: white;
+  font-weight: bold;
+  font-size: 32px;
+  text-align: justify;
 }
-
-.App-link {
-  color: #61dafb;
+.main_text {
+  font-size: 64px;
+  font-weight: bold;
+  color: #fddb53;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.donor {
+  background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)), url("./assets/schoolboy.jpg") no-repeat top center fixed;
+  background-size: cover;
+  min-height: 700px;
+  padding: 1em;
+}
+.login a{
+  font-size: 20px;
+  margin-top: 1em;
+  margin-right: 1em;
+  text-decoration: none;
+  background-color: white;
+  color: black;
+  padding: 1em;
+  transition: background-color, color;
+  transition: all 0.3s ease-in-out;
+  border-radius: 10px;
+}
+.login a:hover{
+  background-color: #fddb53;
 }
