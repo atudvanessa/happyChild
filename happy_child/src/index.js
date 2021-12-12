@@ -5,15 +5,19 @@ import reportWebVitals from "./reportWebVitals";
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import App from "./App";
 import About from "./components/about";
+import Helper from "./components/helper";
+import Donor from "./components/donor";
 import NavBar from "./components/navbar";
 
 const routing = (
   <Router>
     <div>
-      <NavBar/>
+      <NavBar />
       <Routes>
         <Route exact path="/" element={<App />} />
         <Route path="/about" element={<About />} />
+        <Route path="/helper" element={<Helper />} />
+        <Route path="/donor" element={<Donor />} />
       </Routes>
     </div>
   </Router>

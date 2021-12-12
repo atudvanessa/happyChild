@@ -33,9 +33,9 @@ function Home() {
             aliquip ex ea commodo consequat.
           </p>
           <div className="logins">
-          <span className="login">
-            <Link to="/helper">Login As Helper</Link>
-          </span>
+            <span className="login">
+              <Link to="/helper">Login As Helper</Link>
+            </span>
           </div>
         </div>
       </div>
@@ -49,9 +49,10 @@ function Home() {
             aliquip ex ea commodo consequat.
           </p>
           <div className="logins">
-          <span className="login">
-            <Link to="/donor">Login As Donor</Link>
-          </span></div>
+            <span className="login">
+              <Link to="/donor">Login As Donor</Link>
+            </span>
+          </div>
         </div>
       </div>
     </div>
