@@ -8,6 +8,7 @@ import About from "./components/about";
 import Helper from "./components/helper";
 import Donor from "./components/donor";
 import NavBar from "./components/navbar";
+import Agent from "./components/agent";
 
 const routing = (
   <Router>
@@ -18,6 +19,7 @@ const routing = (
         <Route path="/about" element={<About />} />
         <Route path="/helper" element={<Helper />} />
         <Route path="/donor" element={<Donor />} />
+        <Route path="/agent" element={<Agent />} />
       </Routes>
     </div>
   </Router>

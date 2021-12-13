@@ -8,6 +8,7 @@ function Links() {
       <Link to="/about">About</Link>
       <Link to="/contact">Contact</Link>
       <Link to="/helper">Helper</Link>
+      <Link to="/agent">Agent</Link>
       <Link to="/donor">Donor</Link>
     </div>
   );
