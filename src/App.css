@@ -1,0 +1,112 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  background-color: white;
+  font-weight: bold;
+  flex-wrap: wrap;
+  width: 100vw;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+.links {
+  padding-top: 2em;
+}
+.navigation a{
+  text-decoration: none;
+  color: #000000;
+  margin: 1em;
+  padding: 1em;
+  transition: background-color, color;
+  transition: all 0.5s ease-in-out;
+  border-radius: 10px;
+}
+.navigation a:hover {
+  background-color: yellow;
+  color: black;
+}
+.image img{
+  width: 100px;
+  height: 100px;
+}
+.home {
+  display: flex;
+  flex-direction: column;
+  /* padding: 1em; */
+}
+.brief_about{
+  background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)), url("./assets/happyChild.jpeg") no-repeat top center fixed;
+  background-size: cover;
+  min-height: 700px;
+  padding: 1em;
+}
+.helper {
+  background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)), url("./assets/lookup.jpg") no-repeat center center fixed;
+  background-size: cover;
+  min-height: 700px;
+  padding: 1em;
+}
+.contact {
+  background-image: url("./assets/child.jpeg") ;
+  background-size: cover;
+}
+.font {
+  font-size: 30px;
+  font-weight: bold;
+  color: #fddb53;
+}
+#message{
+  width: 20px;
+  height: 20px;
+}
+.lay {
+  flex-direction: column;
+  display: flex;
+}
+.flex {
+ text-align: center;
+}
+.table {
+  border: 2px solid yellow;
+  padding: 30px;
+  margin: 20px;
+
+}
+.text_side {
+  width: 50vw;
+  color: white;
+  font-weight: bold;
+  font-size: 32px;
+  text-align: justify;
+}
+.main_text {
+  font-size: 64px;
+  font-weight: bold;
+  color: #fddb53;
+}
+.donor {
+  background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)), url("./assets/schoolboy.jpg") no-repeat top center fixed;
+  background-size: cover;
+  min-height: 700px;
+  padding: 1em;
+}
+.login a{
+  font-size: 20px;
+  margin-top: 1em;
+  margin-right: 1em;
+  text-decoration: none;
+  background-color: white;
+  color: black;
+  padding: 1em;
+  transition: background-color, color;
+  transition: all 0.3s ease-in-out;
+  border-radius: 10px;
+}
+.login a:hover{
+  background-color: #fddb53;
+}
