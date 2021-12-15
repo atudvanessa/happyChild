@@ -34,7 +34,7 @@ function Contact() {
 <a href="">Submit</a>
           </p>
           <ul>
-          <li>submitted</li>
+          <li>submit request</li>
           <li>cancel request</li>
           </ul>
           </div> 
